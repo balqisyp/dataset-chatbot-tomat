@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam"
+      ],
+      "responses": [
+        "Hai! veggie vigilant bot di sini. Bagaimana saya bisa membantu perawatan tanaman tomat Anda?",
+        "Halo! Saya veggie vigilant bot, salam kenal ya! Tertarik belajar tentang cara merawat tanaman tomat?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": ["Sama-sama! Dengan senang hati:) Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya. Selamat berkebun!"]
+    },
+    {
+      "tag": "info_tomat",
+      "patterns": ["info tomat", "tomat", "Ceritakan tentang tomat", "Apa yang dibutuhkan tomat untuk tumbuh?", "Beri saya tips perawatan tomat"],
+      "responses": ["Tomat adalah tanaman musim panas yang memerlukan sinar matahari penuh untuk tumbuh. Mereka membutuhkan tanah yang baik drainasenya dan penyiraman yang teratur. Pastikan memberikan dukungan saat tumbuh, dan pertimbangkan menggunakan pupuk organik untuk pertumbuhan optimal."]
+    },
+    {
+      "tag": "penyiraman",
+      "patterns": ["penyiraman", "siram", "Seberapa sering sebaiknya saya menyiram tanaman tomat?", "Apa jadwal penyiraman terbaik untuk tomat?"],
+      "responses": ["Tomat umumnya memerlukan 1-2 inci air per minggu. Siram secara mendalam dan konsisten, terutama selama periode kering. Namun, hindari penyiraman berlebihan, karena dapat menyebabkan pembusukan akar."]
+    },
+    {
+      "tag": "tanah",
+      "patterns": ["tanah", "Jenis tanah apa yang terbaik untuk tomat?", "Bagaimana cara meningkatkan tanah untuk tomat?"],
+      "responses": ["Tomat lebih suka tanah yang baik drainasenya dan kaya bahan organik. Campuran tanah kebun dan kompos bekerja baik. Anda juga dapat menambahkan mulsa untuk menjaga kelembaban dan mengendalikan gulma."]
+    },
+    {
+      "tag": "pemupukan",
+      "patterns": ["pupuk", "pemupukan", "Kapan dan bagaimana sebaiknya saya memberi pupuk pada tanaman tomat?", "Ceritakan tentang pemupukan tanaman tomat"],
+      "responses": ["Berikan pupuk pada tanaman tomat saat penanaman dan kemudian lagi saat mereka mulai berbuah. Gunakan pupuk seimbang dengan kandungan fosfor yang lebih tinggi untuk perkembangan buah. Ikuti petunjuk penggunaan pada kemasan."]
+    },
+    {
+      "tag": "hama",
+      "patterns": ["hama", "Bagaimana cara mencegah hama pada tanaman tomat?", "Ceritakan tentang hama pada tanaman tomat"],
+      "responses": ["Untuk mencegah hama, jaga kebersihan kebun, gunakan predator alami, dan periksa tanaman secara teratur. Hama umum termasuk kutu daun, ulat, dan kutu putih. Minyak neem atau sabun insektisida dapat efektif."]
+    },
+    {
+      "tag": "penyakit",
+      "patterns": ["penyakit", "penyakit tanaman tomat", "Bagaimana cara mencegah penyakit pada tanaman tomat?", "Ceritakan tentang penyakit umum pada tanaman tomat"],
+      "responses": ["Untuk mencegah penyakit, praktikkan rotasi tanaman, sediakan sirkulasi udara yang baik, dan hindari penyiraman dari atas. Penyakit umum termasuk busuk, layu, dan bercak daun. Fungisida dapat digunakan secara preventif."]
+    }
+  ]
+}
